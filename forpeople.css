@@ -1,0 +1,195 @@
+/* Add styles here */
+#pato-block {
+    width: 60%;
+    height: 80px;
+    background-color: #1F00FF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#img-logo {
+    display: block; /* Ensure it behaves as a block element for margin auto */
+    margin: 0 auto; /* Auto margins horizontally center block elements */
+}
+
+.option-black {
+    background-color: black;
+}
+
+.option-yellow {
+    background-color: yellow;
+}
+
+.menu-block {
+    width: 60px;
+    height: 50px;
+}
+
+.button-contact-us {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 130px;
+    font: bold 12pt Arial;
+}
+
+#contact-us {
+    flex: 1;
+    align-content: center;
+    padding-right: 71px;
+    justify-content: end;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menu {
+    display: flex;
+    flex: 1;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    padding-left: 90px;
+}
+
+#footer-container {
+    display: flex;
+    padding: 90px 90px 90px 170px;  
+}
+
+#footer-pages-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#social-media-links {
+    display: flex;
+    gap: 15px;
+}
+
+#for-people-title {
+    height: 300px;
+}
+
+#for-people-videos {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    height: 1000px;
+}
+
+.video-section {
+    display: flex;
+    flex: 1;
+    gap: 100px;
+}
+
+.climate-crisis-PATO {
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "YEAR" 1979;
+}
+
+#forpeople-ia-reason-text {
+    padding-left: 190px;
+    font-size: 45px;
+    line-height: 0.5;
+    padding-top: 50px;
+}
+
+#forpeople-ia-reason-image {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+#forpeople-ia-reason-image-text {
+    flex: 1;
+    font-size: 30px;
+    align-content: center;
+}
+
+#forpeople-ia-icons-speech-bubble {
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    padding: 40px 200px 40px 70px;
+    display: none;
+}
+
+#forpeople-ia-icons {
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    background-color: yellow;
+    padding: 40px 200px 40px 70px;
+}
+
+.forpeople-ia-icons-border {
+    border-right: white 5px solid;
+}
+
+#forpeople-ia-icons > div {
+    flex: 1;
+}
+
+#forpeople-people-working-for-people {
+    height: 650px;
+    background-color: black;
+}
+
+.globo-texto {
+    flex: 1;
+    border-radius: 25px;
+    padding: 12px;
+    background: black;
+    color: white;
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+    font-family: sans-serif;
+    z-index: 1;
+}
+
+.globo-texto::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    background: transparent;
+    width: 0px;
+    height: 0px;
+    border-bottom: 40px solid black;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    transform: rotate(90deg);
+    z-index: -1;
+    border-radius: 5px;
+}
+
+#forpeople-what-we-do{
+    font-size: 50px;
+    padding: 50px 0px 50px 170px;
+}
+
+#forpeople-lohacemos-realidad {
+    height: 130px;
+    background-color: yellow;
+    font-size: 90px;
+    text-align: center;
+}

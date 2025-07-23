@@ -1,0 +1,25 @@
+/* Add styles here */
+#img-logo {
+    display: block; /* Ensure it behaves as a block element for margin auto */
+    margin: 0 auto; /* Auto margins horizontally center block elements */
+}
+
+#logo-container {
+    display: flex;
+  }
+
+#logo-container-text { 
+    padding-top: 76px;
+    padding-left: 10px;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.norican-regular {
+    font-family: "Norican", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: end;
+    font-size: 60px;
+  }
+

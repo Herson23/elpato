@@ -1,0 +1,230 @@
+/* Add styles here */
+#pato-block {
+    width: 60%;
+    height: 80px;
+    background-color: #1F00FF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#img-logo {
+    display: block; /* Ensure it behaves as a block element for margin auto */
+    margin: 0 auto; /* Auto margins horizontally center block elements */
+}
+
+.option-black {
+    background-color: black;
+}
+
+.option-yellow {
+    background-color: yellow;
+}
+
+.menu-block {
+    width: 60px;
+    height: 50px;
+}
+
+.button-contact-us {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 130px;
+    font: bold 12pt Arial;
+}
+
+#contact-us {
+    flex: 1;
+    align-content: center;
+    padding-right: 71px;
+    justify-content: end;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menu {
+    display: flex;
+    flex: 1;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    padding-left: 90px;
+}
+
+#footer-container {
+    display: flex;
+    padding: 90px 90px 90px 170px;  
+}
+
+#footer-pages-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#social-media-links {
+    display: flex;
+    gap: 15px;
+}
+
+#work-header {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+#work-header-text-left {
+    padding-left: 90px;
+    font-size: 34px;
+    padding-top: 180px;
+    line-height: 0;
+    flex: 1;
+    text-align: end;
+}
+
+#work-pato-image {
+    flex: 1;
+    border: 1px solid black;
+}
+
+#work-header-text-right {
+    flex: 1;
+    padding-right: 71px;
+    line-height: 0;
+    font-size: 34px;
+    padding-top: 180px;
+}
+
+#work-quotes{
+    font-size: 80px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 20px;
+    margin-bottom: 200px;
+}
+
+#animation-quotes {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-30%);
+    }
+}
+
+.climate-crisis-PATO {
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "YEAR" 1979;
+}
+
+#work-our-mentality {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 71px 0px 90px;
+    line-height: 0;
+}
+
+#work-our-mentality-title {
+    text-align: start;
+    flex: 1;
+    padding-top: 50px;
+    border-left: 5px black solid;
+}
+
+#work-our-mentality-2 {
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 71px 0px 90px;
+}
+
+#work-our-mentality-text {
+    flex: 1;
+    border-left: 5px black solid;
+    font-size: 29px;
+}
+
+#work-video {
+    display: flex;
+    flex-direction: column;
+    padding: 130px 71px 0px 90px;
+    height: 1100px;
+    background-color: yellow;
+}
+
+#video-container {
+    flex: 1;
+    width: 80%;
+    height: 100px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+#work-video-pato-text {
+    flex: 0.4;
+    margin: 0 auto;
+}
+
+#work-small-sharp-savage {
+    background-color: black;
+    display: flex;
+    height: 700px;
+    padding-left: 250px;
+    padding-right: 120px;
+}
+
+.work-small-sharp-savage-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 70px;
+}
+
+.work-icon {
+    background-color: yellow;
+    height: 250px;
+    width: 200px;
+}
+
+.work-small-sharp-savage-text {
+    width: 100%;
+    color: white;
+    padding-top: 50px;
+}
+
+#image-pato {
+    background-color: black;
+    height: 400px;
+    padding-top: 200px;
+}
+
+.yellow-box {
+    background-color: yellow;
+    height: 90px;
+    width: 60%;
+    margin: 0 auto;
+}
