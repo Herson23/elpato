@@ -145,6 +145,7 @@
     flex-direction: row;
     padding: 0px 71px 0px 90px;
     line-height: 0;
+    position: relative;
 }
 
 #work-our-mentality-title {
@@ -159,12 +160,14 @@
     display: flex;
     flex-direction: row;
     padding: 0px 71px 0px 90px;
+    position: relative;
 }
 
 #work-our-mentality-text {
     flex: 1;
     border-left: 5px black solid;
     font-size: 29px;
+    padding-bottom: 30px;
 }
 
 #work-video {
@@ -227,4 +230,29 @@
     height: 90px;
     width: 60%;
     margin: 0 auto;
+}
+#work-our-mentality-circle-top {
+    position: absolute;
+    border: 5px solid black;
+    height: 30px;
+    width: 30px;
+    left: 18px;
+    right: 0px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#work-our-mentality-circle-bottom {
+    position: absolute;
+    border: 5px solid black;
+    height: 30px;
+    width: 30px;
+    left: 18px;
+    right: 0px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+    align-self: end;
 }
