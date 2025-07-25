@@ -10,14 +10,6 @@
     margin: 0 auto; /* Auto margins horizontally center block elements */
 }
 
-.container {
-    display: flex;
-    justify-content: center; /* Horizontal centering */
-    height: 300px;
-    width: 100%;          /* Full viewport height */
-    margin-top: 150px;
-  }
-
 #pato-cabeza-img {
     display: block; /* Ensure it behaves as a block element for margin auto */
     margin: 0 auto; 
@@ -35,10 +27,6 @@
     display: flex; 
     justify-content: center; 
     align-items: center; 
-}
-
-.text-option {
-    font-size: xx-large;
 }
 
 .white {
@@ -61,16 +49,59 @@
     background-color: yellow;
 }
 
-.container:hover {
-    gap: 100px;
+
+@media screen and (min-width: 1300px) {
+    .container:hover {
+        gap: 100px;
+    }
+    
+    .container:hover .menu-option {
+        flex: 0.8;
+    }
+    
+    .menu-option:hover {
+        flex: 2;
+        transform: scale(1.8);
+        z-index: 1;
+    }
+
+    .text-option {
+        font-size: xx-large;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center; /* Horizontal centering */
+        height: 300px;
+        width: 100%;          /* Full viewport height */
+        margin-top: 150px;
+      }
 }
 
-.container:hover .menu-option {
-    flex: 0.8;
-}
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+    .container:hover {
+        gap: 80px;
+    }
+    
+    .container:hover .menu-option {
+        flex: 0.8;
+    }
+    
+    .menu-option:hover {
+        flex: 1.2;
+        transform: scale(1.6);
+        z-index: 1;
+    }
 
-.menu-option:hover {
-    flex: 2;
-    transform: scale(1.8);
-    z-index: 1;
+    .text-option {
+        font-size: large;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center; /* Horizontal centering */
+        height: 150px;
+        width: 100%;          /* Full viewport height */
+        margin-top: 90px;
+      }
 }
