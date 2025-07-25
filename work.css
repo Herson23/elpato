@@ -186,11 +186,6 @@
     margin: 0 auto;
 }
 
-#work-video-pato-text {
-    flex: 0.4;
-    margin: 0 auto;
-}
-
 #work-small-sharp-savage {
     background-color: black;
     display: flex;
@@ -231,6 +226,7 @@
     width: 60%;
     margin: 0 auto;
 }
+
 #work-our-mentality-circle-top {
     position: absolute;
     border: 5px solid black;
@@ -255,4 +251,65 @@
     border-radius: 50%;
     margin: 0 auto;
     align-self: end;
+}
+
+#work-video-pato-text {
+    flex: 0.4;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1300px) {
+    #work-our-mentality-text {
+        flex: 1;
+        border-left: 5px black solid;
+        font-size: 29px;
+        padding-bottom: 30px;
+    }
+
+    #work-our-mentality-title > h2 {
+        font-size: 80px;
+        padding-left: 80px;
+    }
+
+    .work-small-sharp-savage-text > p {
+        font-size: 30px;
+    }
+    #work-small-sharp-savage {
+        background-color: black;
+        display: flex;
+        height: 700px;
+        padding-left: 250px;
+        padding-right: 120px;
+    }
+
+    #work-video-pato-text > h1 {
+        font-size: 120px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+    #work-our-mentality-text {
+        flex: 1;
+        border-left: 5px black solid;
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+
+    #work-our-mentality-title > h2 {
+        font-size: 69px;
+        padding-left: 80px;
+    }
+    #work-video-pato-text > h1 {
+        font-size: 90px;
+    }
+    .work-small-sharp-savage-text > p {
+        font-size: 25px;
+    }
+    #work-small-sharp-savage {
+        background-color: black;
+        display: flex;
+        height: 700px;
+        padding-left: 200px;
+        padding-right: 100px;
+    }
 }
